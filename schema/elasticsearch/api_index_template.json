@@ -113,9 +113,6 @@
                 "port": {
                     "type": "long"
                 },
-                "body": {
-                    "type": "text"
-                },
                 "node": {
                     "properties": {
                         "name": {
@@ -158,6 +155,9 @@
                                 },
                                 "phrase": {
                                     "type": "keyword"
+                                },
+                                "body": {
+                                    "type": "text"
                                 }
                             }
                         }
