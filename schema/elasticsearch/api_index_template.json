@@ -14,9 +14,7 @@
 
     "version": 107,
     "mappings": {
-
         "api": {
-
             "dynamic_templates": [
                 {
                     "reqheaders": {
@@ -85,8 +83,7 @@
             ],
 
             "properties": {
-
-                "@timestamp":{
+                "@timestamp": {
                     "type": "date"
                 },
                 "startts": {
@@ -116,7 +113,9 @@
                 "port": {
                     "type": "long"
                 },
-
+                "body": {
+                    "type": "text"
+                },
                 "node": {
                     "properties": {
                         "name": {
